@@ -1,1 +1,1 @@
-web: gunicorn config.wsgi --log-file -
+web: gunicorn demo_zuri_core_api.wsgi --log-file -
