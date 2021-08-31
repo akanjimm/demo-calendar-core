@@ -23,10 +23,10 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="StartConnect API",
+      title="demo-zcc-api API",
       default_version='v1',
       description="A place employers meet tech talents",
-      terms_of_service="https://www.startconnect.com/policies/terms/",
+      terms_of_service="",
       contact=openapi.Contact(email="contact@startc"),
       license=openapi.License(name="Test License"),
    ),
